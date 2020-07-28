@@ -10,5 +10,6 @@ curl --request POST
 --url 'http://127.0.0.1:5000/submit_api' 
 --header 'accept: multipart/form-data' 
 -F 'file=@test2-predictions.csv'
+
 5. **request.py** permet de faire une requête directe à l'URL avec la librairie requests
 ATTENTION: Pour charger les fichiers csv le chemin d'accès est un chemin absolu, il faut donc le modifier pour pouvoir charger les fichiers.
